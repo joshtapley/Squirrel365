@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1"
+  xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.infosol.squirrel.86CE753142C947398CADE1EC8C5A2573" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Extension Description</description>
+    <author name="Squirrel365" email="rich@squirrel365.io" organization="Squirrel365" website="https://squirrel365.io"/>
+    <min-api-version>1.0</min-api-version>
+    <source-location>
+      <url>https://tableau.squirrel365.io/</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAABH9JREFUWAntV01sVFUU/u5784YKIhXYECMEMDaQBpQ2aYybakyIbmyixMSYiCxE3JhUowsWKkbFREPcKK0Yw0pTF7hsoqRoNCamxkRqpNQOWn+KoPyILdOfmeN37sx5c/umLaUu2HDCe+fec88933fPOe9OAa7LNc6Amw9/+WFZNT6Bu6MIG8VhiXMYTWJ8P/64+26+fVezNiuBpEu2TQv2ErgDDlEUA/q4qPLEMYaiHN7e/hAOfuxc6WoAs74zCIiIi7uw18V4iaeNQ1AFt7lpkvs2zqPj3APut2zghc4ZtibJezjAk71CgJga9sQJoI/OTes4l0cLfb9ac1TW1aJURlGXvOEOyr/UL2bXwnlKIHlfdroEzxgIg88ADEkYMe8bY205woftIqRUEynjaQiWiWBPzVo/8gQaP5BGl8ObceVUdScPT21ElKC3MzO5BHf99DV2zQjP3qnO2T1zi2c9meDR2GFVWOdwzGYE+8I3odXfGtLmbMxnCdOdQgk7pCJJ/K7sFGADDYWGBvSOPeFOm593WvaR9DFgewiaBciuGbC3G8EluL2w2Q1pcNZ/jCVYakCpdrgUOXSWdrtDavNpYuq3WGqtvjoP+8Cnm/kK/WxsOonQlgLNNRAsL5fRleuW7Z5Ae5/kogQrZwP2TVb9ArQ/DCi10+b3Vb8QZmVFilsrQWpiUT7l00dDVCrhOU/g2D1umoFLYXADCDVJpp9g6Gtjr3MILyXumCmsd58TfFG1tqv2TcjgJ9lom7RtrLbWeDoP7WEvmK/Z4giDGrQqo9S32kQ1P8nXgrnHrrzy+JwLmywQO36AwY/kYhTKDjeSzH2c308i+dSH3RMSIPfSQC962Hw3sfn+ZLxiADbnkPuA9V9K01SEAQ3O+6CzrQXvZO/4pmFpZYJ7CLo+JGHj8yPASP+cOLMtTMge1+AJ6Oq6b6SbJx081erems1bbVt/lVtY5BP8ndCsVO6GaoTBo8DkmE8zuK7p5quieStOc+azrXGYySJdXi8/5falBDYMy4rCRnfRO8zz2joqL/DU+322tAx8fj8OXGAGVBQ4JaAGRajYei4/5h5RUygpgdA437hlTNZIEX9YBs7y2vmrUNtRxfO4atVEmC3v0HzuYfdDzbuyFs4XNG69KKXSBKIzJ4HxcwGC7ja0zNFYBvCZokdCnyKztP/Cg+7lWl108wLl7wImxs7iBnVP9G3H1GG2BOpEmRr3yt8NvAs+457b1LIoAsVLmM41+IB1ryyBtB9IbOoyJpmYw+c73JO2cVEE8g0YYrxtGiSbcUuGai9VQ0LCSxux75c296otqV4UAZ7+CFPoCdQBhtE5Tgk6lHnBfZJZ9utZ2xXnd5ySxuIk9Gd39ZUIWDASOXCiyXXa3LQSXJRs+VnuZWP38giJ1V0D2Vi1ivYAZXj1WjQfc67uel40AY3aekbuLAkOEcyXQ211QgT+m+b/K45Tn+bP+vP9K92A+f0vAhpkh0g88g92k8gOIjXzYry5LOBfeBXJZoQ+P/Y3us3V5evq2mfgP0UBMxawLTViAAAAAElFTkSuQmCC</icon>
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+    <context-menu>
+      <configure-context-menu-item />
+    </context-menu>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Squirrel Connector</text>
+    </resource>
+  </resources>
+</manifest>
